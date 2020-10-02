@@ -23,6 +23,7 @@
     },
     "types": ["@types/node", "@types/jest", "@nuxt/types"]
   },
-  "include": ["./app/**/*.ts", "./app/**/*.vue"],
+
+  "include": ["./app/**/*.ts", "./app/**/*.vue", "./app/config/tailwind.config.js", "app/tailwind.config.js"],
   "exclude": ["node_modules"]
 }
